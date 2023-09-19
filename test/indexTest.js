@@ -42,7 +42,7 @@ describe('index.js', function() {
   });
 
   describe('calculatesFarePrice(start, destination)', function() {
-    it('gives customers a free sample', function() {
+    it(c, function() {
       expect(calculatesFarePrice(43, 44)).to.equal(0);
     });
 
